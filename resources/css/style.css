@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'youngSerif';
+  src: url('/resources/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'outfit';
+    src: url('/resources/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'youngSerif', serif;
+  color: hsl(24, 5%, 18%);
+  font-size: 2em;
+}
+
+h2, h3 {
+    font-family: 'youngSerif', serif;
+    color: hsl(332, 51%, 32%);
+}
+
+body {
+    font-family: 'outfit', sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(24, 5%, 18%);
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1em;
+    padding: 3vh 3vw;
+    margin: 5% 15%;
+}
+
+img {
+    border-radius: 1em;
+}
+
+li:not(:last-child) {
+    margin-bottom: 0.7em;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 1em;
+    padding: 1vh 3vw;
+}
+
+.ingredients, .instructions {
+    border-bottom: 0.3px solid hsl(30, 54%, 90%);
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr:not(:last-child) {
+    border-bottom: 0.3px solid hsl(30, 18%, 87%);
+}
+
+table td:not(:last-child) {
+    padding-bottom: 1vh;
+    padding-left: 3vw;
+}
+
+/* mobile version */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #fff;
+    }
+
+    .omelette-image {
+        width: 100vw;
+        margin: -6%;
+        margin-top: -5vh;
+    }
+
+    img {
+        height: 25vh;
+    }
+
+    .omelette-recipe {
+        margin-top: 3vh;
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+    img {
+        border-radius: 0;
+    }
+
+    .prep-time {
+        border-radius: 0.5em;
+        padding-left: 5vw;
+    }
+}
