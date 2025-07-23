@@ -71,6 +71,11 @@ table td:not(:last-child) {
     padding-left: 3vw;
 }
 
+#nutrition-value {
+    font-weight: 700;
+    color: hsl(332, 51%, 32%);
+}
+
 /* mobile version */
 @media only screen and (max-width: 600px) {
     body {
