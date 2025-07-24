@@ -1,5 +1,5 @@
 # 🍳 Frontend Mentor - Recipe Page Solution
-<p>This is a solution to the <a href="https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm" target="_blank">[Recipe Page Challene on Frontend Mentor]</a>.</p>
+<p>This is a solution to the <a href="https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm" target="_blank">[Recipe Page Challenge on Frontend Mentor]</a>.</p>
 
 # 📸 Screenshot
 <table>
